@@ -1,0 +1,7 @@
+streamlit
+onnx
+onnxruntime
+numpy
+scipy
+transformers
+gdown
