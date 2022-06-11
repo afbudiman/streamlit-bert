@@ -40,6 +40,8 @@ pipe = OnnxPipeline(onnx_quantized_model, tokenizer)
 
 
 def main():
+    st.title("Sentiment Analysis")
+    st.markdown("")
     text = st.text_area(label='Put your review here')
 
     if st.button('Predict'):
@@ -49,5 +51,4 @@ def main():
 
 if __name__ == "__main__":
     st.set_page_config(page_title="Sentiment Analysis")
-    st.title("Sentiment Analysis")
     main()
